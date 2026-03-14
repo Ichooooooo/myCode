@@ -1,0 +1,1 @@
+{"name":"Local: P3395","url":"/home/icho/Code/vscode_demo/luogu/BFS/P3395.cpp","tests":[{"id":1771930438589,"input":"2\n\n2\n1 1\n2 2\n\n5\n3 3\n3 2\n3 1\n1 2\n1 3\n1 4\n1 5\n2 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/luogu/BFS/P3395.cpp","group":"local","local":true}

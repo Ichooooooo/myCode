@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"d:\\vscode_demo\\比赛\\pta\\f.cpp","tests":[{"id":1767275999120,"input":"5\n1 200 1\n3 50 100 300 2\n5 100 100 200 200 300 3\n2 200 300 2\n1 200 0\n","output":""},{"id":1767276228444,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\pta\\f.cpp","group":"local","local":true}

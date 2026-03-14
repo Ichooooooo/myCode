@@ -1,0 +1,337 @@
+Date : 2026-01-21 01:33:25
+Directory : d:\vscode_demo
+Total : 230 files,  9300 codes, 292 comments, 1189 blanks, all 10781 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |        215 |      8,487 |        289 |        963 |      9,739 |
+| Markdown |         14 |        806 |          3 |        226 |      1,035 |
+| Batch    |          1 |          7 |          0 |          0 |          7 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                    |        230 |      9,300 |        292 |      1,189 |     10,781 |
+| . (Files)                                                            |          2 |         84 |          1 |         15 |        100 |
+| Answer                                                               |          3 |        183 |          3 |         41 |        227 |
+| Answer (Files)                                                       |          1 |         11 |          3 |          0 |         14 |
+| Answer\AT                                                            |          1 |        133 |          0 |         30 |        163 |
+| Answer\CF                                                            |          1 |         39 |          0 |         11 |         50 |
+| Atcoder                                                              |          9 |        293 |         14 |         46 |        353 |
+| Atcoder\ABC                                                          |          4 |        131 |          4 |         26 |        161 |
+| Atcoder\ABC\437                                                      |          4 |        131 |          4 |         26 |        161 |
+| Atcoder\C                                                            |          1 |         38 |          1 |          3 |         42 |
+| Atcoder\easy                                                         |          3 |         81 |          8 |         13 |        102 |
+| Atcoder\medium                                                       |          1 |         43 |          1 |          4 |         48 |
+| LIKE题                                                                |          1 |         34 |          0 |          7 |         41 |
+| LIKE题\子序列                                                            |          1 |         34 |          0 |          7 |         41 |
+| codeforces                                                           |         26 |      1,012 |         43 |         84 |      1,139 |
+| codeforces (Files)                                                   |          1 |         31 |          0 |          4 |         35 |
+| codeforces\1200                                                      |          7 |        313 |         11 |         22 |        346 |
+| codeforces\div22222222                                               |          4 |        119 |          1 |         11 |        131 |
+| codeforces\math                                                      |          8 |        350 |         23 |         24 |        397 |
+| codeforces\vppppppp                                                  |          6 |        199 |          8 |         23 |        230 |
+| codeforces\vppppppp\round 582 div3                                   |          6 |        199 |          8 |         23 |        230 |
+| judge                                                                |          4 |         79 |          2 |         12 |         93 |
+| vjudge                                                               |          5 |        246 |         10 |         14 |        270 |
+| 板子题                                                                  |         19 |        993 |         13 |        243 |      1,249 |
+| 板子题\DFS                                                              |          1 |         97 |          0 |         24 |        121 |
+| 板子题\DP                                                               |          2 |        193 |          0 |         34 |        227 |
+| 板子题\ST表                                                              |          1 |         43 |          1 |          5 |         49 |
+| 板子题\并查集                                                              |          1 |         25 |          0 |          3 |         28 |
+| 板子题\总结                                                               |          5 |        257 |          0 |        113 |        370 |
+| 板子题\数论                                                               |          5 |        196 |          5 |         35 |        236 |
+| 板子题\线段树                                                              |          4 |        182 |          7 |         29 |        218 |
+| 比赛                                                                   |        137 |      5,319 |        178 |        586 |      6,083 |
+| 比赛\Atcoder                                                           |         24 |        898 |         40 |        125 |      1,063 |
+| 比赛\Atcoder\365                                                       |          4 |        173 |          6 |         17 |        196 |
+| 比赛\Atcoder\438                                                       |          5 |        217 |         10 |         27 |        254 |
+| 比赛\Atcoder\439                                                       |          6 |        183 |          7 |         30 |        220 |
+| 比赛\Atcoder\440                                                       |          4 |        137 |         10 |         23 |        170 |
+| 比赛\Atcoder\441                                                       |          5 |        188 |          7 |         28 |        223 |
+| 比赛\codeforces                                                        |         24 |        937 |         13 |        103 |      1,053 |
+| 比赛\codeforces\div 2                                                  |          7 |        333 |          6 |         32 |        371 |
+| 比赛\codeforces\div 2\1070                                             |          3 |        155 |          2 |          9 |        166 |
+| 比赛\codeforces\div 2\186                                              |          4 |        178 |          4 |         23 |        205 |
+| 比赛\codeforces\div 3                                                  |          9 |        353 |          5 |         31 |        389 |
+| 比赛\codeforces\div 3\1071                                             |          5 |        232 |          5 |         14 |        251 |
+| 比赛\codeforces\div 3\1072                                             |          4 |        121 |          0 |         17 |        138 |
+| 比赛\codeforces\div4                                                   |          5 |        134 |          2 |         27 |        163 |
+| 比赛\codeforces\goodbye                                                |          3 |        117 |          0 |         13 |        130 |
+| 比赛\pta                                                               |          8 |        252 |         12 |         39 |        303 |
+| 比赛\校赛                                                                |         36 |      1,448 |         72 |        101 |      1,621 |
+| 比赛\校赛\2025新生周赛2                                                      |          4 |        146 |         53 |         16 |        215 |
+| 比赛\校赛\green bird cup                                                 |          6 |        334 |          6 |         18 |        358 |
+| 比赛\校赛\北京信息科技                                                         |          4 |        136 |          0 |         14 |        150 |
+| 比赛\校赛\华中农业新生赛14                                                      |          6 |        264 |          7 |         13 |        284 |
+| 比赛\校赛\华中热身赛                                                          |          5 |        158 |          1 |         13 |        172 |
+| 比赛\校赛\广州赛                                                            |          8 |        304 |          3 |         18 |        325 |
+| 比赛\校赛\核桃杯                                                            |          3 |        106 |          2 |          9 |        117 |
+| 比赛\核桃杯                                                               |          3 |        141 |          2 |         11 |        154 |
+| 比赛\牛客                                                                |         42 |      1,643 |         39 |        207 |      1,889 |
+| 比赛\牛客\周赛                                                             |         33 |      1,255 |         34 |        155 |      1,444 |
+| 比赛\牛客\周赛\Round 119                                                   |          2 |        126 |          2 |          8 |        136 |
+| 比赛\牛客\周赛\Round 121                                                   |          4 |        173 |          3 |         15 |        191 |
+| 比赛\牛客\周赛\Round 123                                                   |          5 |        167 |          6 |         16 |        189 |
+| 比赛\牛客\周赛\Round 124                                                   |          5 |        194 |          8 |         25 |        227 |
+| 比赛\牛客\周赛\Round 125                                                   |          6 |        227 |          1 |         35 |        263 |
+| 比赛\牛客\周赛\Round 126                                                   |          6 |        158 |          6 |         27 |        191 |
+| 比赛\牛客\周赛\Round 127                                                   |          5 |        210 |          8 |         29 |        247 |
+| 比赛\牛客\挑战赛                                                            |          1 |         18 |          1 |          5 |         24 |
+| 比赛\牛客\月赛                                                             |          7 |        347 |          3 |         43 |        393 |
+| 比赛\牛客\月赛\126                                                         |          2 |         92 |          1 |          4 |         97 |
+| 比赛\牛客\月赛\127                                                         |          5 |        255 |          2 |         39 |        296 |
+| 比赛\牛客\练习赛                                                            |          1 |         23 |          1 |          4 |         28 |
+| 比赛\牛客\练习赛\146                                                        |          1 |         23 |          1 |          4 |         28 |
+| 洛谷                                                                   |         13 |        570 |         18 |         90 |        678 |
+| 洛谷 (Files)                                                           |          1 |         67 |          0 |          7 |         74 |
+| 洛谷\dfs                                                               |          3 |        132 |          5 |         22 |        159 |
+| 洛谷\dp                                                                |          6 |        237 |          9 |         35 |        281 |
+| 洛谷\贪心                                                                |          2 |        110 |          3 |         21 |        134 |
+| 洛谷\队列与栈                                                              |          1 |         24 |          1 |          5 |         30 |
+| 牛客                                                                   |         11 |        487 |         10 |         51 |        548 |
+| 牛客\dp                                                                |          4 |        137 |          2 |         24 |        163 |
+| 牛客\子段                                                                |          1 |         50 |          3 |          4 |         57 |
+| 牛客\栈与队列                                                              |          6 |        300 |          5 |         23 |        328 |
++----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                             | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\vscode_demo\Answer\AT\440.md                                      | Markdown |        133 |          0 |         30 |        163 |
+| d:\vscode_demo\Answer\CF\Good Bye 2025.md                            | Markdown |         39 |          0 |         11 |         50 |
+| d:\vscode_demo\Answer\板子.md                                          | Markdown |         11 |          3 |          0 |         14 |
+| d:\vscode_demo\Atcoder\ABC\437\a.cpp                                 | C++      |         22 |          1 |          4 |         27 |
+| d:\vscode_demo\Atcoder\ABC\437\b.cpp                                 | C++      |         35 |          1 |          7 |         43 |
+| d:\vscode_demo\Atcoder\ABC\437\c.cpp                                 | C++      |         36 |          1 |          6 |         43 |
+| d:\vscode_demo\Atcoder\ABC\437\d.cpp                                 | C++      |         38 |          1 |          9 |         48 |
+| d:\vscode_demo\Atcoder\C\Distance Indicators.cpp                     | C++      |         38 |          1 |          3 |         42 |
+| d:\vscode_demo\Atcoder\easy\B - Power Socket.cpp                     | C++      |         29 |          1 |          4 |         34 |
+| d:\vscode_demo\Atcoder\easy\B - Qualification simulator.cpp          | C++      |         21 |          1 |          5 |         27 |
+| d:\vscode_demo\Atcoder\easy\C - Rally.cpp                            | C++      |         31 |          6 |          4 |         41 |
+| d:\vscode_demo\Atcoder\medium\B - Trained.cpp                        | C++      |         43 |          1 |          4 |         48 |
+| d:\vscode_demo\LIKE题\子序列\比例+限制极值.md                                  | Markdown |         34 |          0 |          7 |         41 |
+| d:\vscode_demo\atest.cpp                                             | C++      |         66 |          0 |         10 |         76 |
+| d:\vscode_demo\codeforces\1200\Against the Difference.cpp            | C++      |         27 |          1 |          3 |         31 |
+| d:\vscode_demo\codeforces\1200\Games.cpp                             | C++      |         45 |          2 |          3 |         50 |
+| d:\vscode_demo\codeforces\1200\Loyalty.cpp                           | C++      |         54 |          0 |          3 |         57 |
+| d:\vscode_demo\codeforces\1200\Number Maze.cpp                       | C++      |         24 |          1 |          4 |         29 |
+| d:\vscode_demo\codeforces\1200\Replace with Occurrences.cpp          | C++      |         60 |          0 |          3 |         63 |
+| d:\vscode_demo\codeforces\1200\Split.cpp                             | C++      |         50 |          7 |          3 |         60 |
+| d:\vscode_demo\codeforces\1200\a and b.cpp                           | C++      |         53 |          0 |          3 |         56 |
+| d:\vscode_demo\codeforces\ctest.cpp                                  | C++      |         31 |          0 |          4 |         35 |
+| d:\vscode_demo\codeforces\div22222222\Little Fairy's Painting.cpp    | C++      |         32 |          0 |          4 |         36 |
+| d:\vscode_demo\codeforces\div22222222\Needle in a Haystack.cpp       | C++      |          0 |          0 |          1 |          1 |
+| d:\vscode_demo\codeforces\div22222222\Split.cpp                      | C++      |         51 |          1 |          3 |         55 |
+| d:\vscode_demo\codeforces\div22222222\XOR Array .cpp                 | C++      |         36 |          0 |          3 |         39 |
+| d:\vscode_demo\codeforces\math\378QAQ and Mocha's Array.cpp          | C++      |         43 |          0 |          3 |         46 |
+| d:\vscode_demo\codeforces\math\Make Equal Again.cpp                  | C++      |         52 |          1 |          3 |         56 |
+| d:\vscode_demo\codeforces\math\Paint a Strip.cpp                     | C++      |         37 |          0 |          3 |         40 |
+| d:\vscode_demo\codeforces\math\Permutation Printing.cpp              | C++      |         38 |         21 |          3 |         62 |
+| d:\vscode_demo\codeforces\math\Rudolf and 121.cpp                    | C++      |         49 |          0 |          3 |         52 |
+| d:\vscode_demo\codeforces\math\Superultra's Favorite Permutation.cpp | C++      |         47 |          0 |          3 |         50 |
+| d:\vscode_demo\codeforces\math\The Strict Teacher (Easy Version).cpp | C++      |         41 |          1 |          3 |         45 |
+| d:\vscode_demo\codeforces\math\The Strict Teacher (Hard Version).cpp | C++      |         43 |          0 |          3 |         46 |
+| d:\vscode_demo\codeforces\vppppppp\round 582 div3\a.cpp              | C++      |         29 |          1 |          2 |         32 |
+| d:\vscode_demo\codeforces\vppppppp\round 582 div3\b.cpp              | C++      |         35 |          1 |          2 |         38 |
+| d:\vscode_demo\codeforces\vppppppp\round 582 div3\c.cpp              | C++      |         37 |          3 |          3 |         43 |
+| d:\vscode_demo\codeforces\vppppppp\round 582 div3\d1.cpp             | C++      |         54 |          2 |         10 |         66 |
+| d:\vscode_demo\codeforces\vppppppp\round 582 div3\d2.cpp             | C++      |         44 |          1 |          5 |         50 |
+| d:\vscode_demo\codeforces\vppppppp\round 582 div3\e.cpp              | C++      |          0 |          0 |          1 |          1 |
+| d:\vscode_demo\hello.cpp                                             | C++      |         18 |          1 |          5 |         24 |
+| d:\vscode_demo\judge\a.cpp                                           | C++      |         32 |          1 |          5 |         38 |
+| d:\vscode_demo\judge\bat.bat                                         | Batch    |          7 |          0 |          0 |          7 |
+| d:\vscode_demo\judge\makedata.cpp                                    | C++      |         11 |          0 |          4 |         15 |
+| d:\vscode_demo\judge\std.cpp                                         | C++      |         29 |          1 |          3 |         33 |
+| d:\vscode_demo\vjudge\1.cpp                                          | C++      |         61 |          6 |          3 |         70 |
+| d:\vscode_demo\vjudge\2.cpp                                          | C++      |         88 |          1 |          2 |         91 |
+| d:\vscode_demo\vjudge\3.cpp                                          | C++      |         55 |          1 |          2 |         58 |
+| d:\vscode_demo\vjudge\4.cpp                                          | C++      |         21 |          1 |          3 |         25 |
+| d:\vscode_demo\vjudge\5.cpp                                          | C++      |         21 |          1 |          4 |         26 |
+| d:\vscode_demo\板子题\DFS\树上DFS.md                                      | Markdown |         97 |          0 |         24 |        121 |
+| d:\vscode_demo\板子题\DP\LST.md                                         | Markdown |        134 |          0 |         22 |        156 |
+| d:\vscode_demo\板子题\DP\记忆化.md                                         | Markdown |         59 |          0 |         12 |         71 |
+| d:\vscode_demo\板子题\ST表\Sparse_Table.cpp                              | C++      |         43 |          1 |          5 |         49 |
+| d:\vscode_demo\板子题\并查集\板子.md                                         | Markdown |         25 |          0 |          3 |         28 |
+| d:\vscode_demo\板子题\总结\Odd_Problem.md                                 | Markdown |        102 |          0 |         51 |        153 |
+| d:\vscode_demo\板子题\总结\lamda.md                                       | Markdown |         22 |          0 |          8 |         30 |
+| d:\vscode_demo\板子题\总结\临时板子.md                                        | Markdown |        117 |          0 |         42 |        159 |
+| d:\vscode_demo\板子题\总结\补题目.md                                         | Markdown |          0 |          0 |          1 |          1 |
+| d:\vscode_demo\板子题\总结\高级c++.md                                       | Markdown |         16 |          0 |         11 |         27 |
+| d:\vscode_demo\板子题\数论\Catalan_number.cpp                             | C++      |         30 |          1 |          4 |         35 |
+| d:\vscode_demo\板子题\数论\get_C.cpp                                      | C++      |         43 |          1 |         10 |         54 |
+| d:\vscode_demo\板子题\数论\get_factors.cpp                                | C++      |         54 |          1 |          8 |         63 |
+| d:\vscode_demo\板子题\数论\get_primes.cpp                                 | C++      |         36 |          1 |          7 |         44 |
+| d:\vscode_demo\板子题\数论\qpow.cpp                                       | C++      |         33 |          1 |          6 |         40 |
+| d:\vscode_demo\板子题\线段树\base.cpp                                      | C++      |         82 |          5 |         10 |         97 |
+| d:\vscode_demo\板子题\线段树\base.md                                       | Markdown |         17 |          0 |          4 |         21 |
+| d:\vscode_demo\板子题\线段树\lazy.cpp                                      | C++      |         83 |          2 |         14 |         99 |
+| d:\vscode_demo\板子题\线段树\lazy2.cpp                                     | C++      |          0 |          0 |          1 |          1 |
+| d:\vscode_demo\比赛\Atcoder\365\a.cpp                                  | C++      |         29 |          1 |          4 |         34 |
+| d:\vscode_demo\比赛\Atcoder\365\b.cpp                                  | C++      |         31 |          1 |          4 |         36 |
+| d:\vscode_demo\比赛\Atcoder\365\c.cpp                                  | C++      |         59 |          1 |          5 |         65 |
+| d:\vscode_demo\比赛\Atcoder\365\d.cpp                                  | C++      |         54 |          3 |          4 |         61 |
+| d:\vscode_demo\比赛\Atcoder\438\a.cpp                                  | C++      |         29 |          1 |          4 |         34 |
+| d:\vscode_demo\比赛\Atcoder\438\b.cpp                                  | C++      |         58 |          4 |          7 |         69 |
+| d:\vscode_demo\比赛\Atcoder\438\c.cpp                                  | C++      |         36 |          2 |          5 |         43 |
+| d:\vscode_demo\比赛\Atcoder\438\d.cpp                                  | C++      |         47 |          1 |          5 |         53 |
+| d:\vscode_demo\比赛\Atcoder\438\e.cpp                                  | C++      |         47 |          2 |          6 |         55 |
+| d:\vscode_demo\比赛\Atcoder\439\a.cpp                                  | C++      |         22 |          1 |          4 |         27 |
+| d:\vscode_demo\比赛\Atcoder\439\b.cpp                                  | C++      |         40 |          3 |          6 |         49 |
+| d:\vscode_demo\比赛\Atcoder\439\c.cpp                                  | C++      |         41 |          1 |          6 |         48 |
+| d:\vscode_demo\比赛\Atcoder\439\d.cpp                                  | C++      |         40 |          1 |          6 |         47 |
+| d:\vscode_demo\比赛\Atcoder\439\e.cpp                                  | C++      |         40 |          1 |          7 |         48 |
+| d:\vscode_demo\比赛\Atcoder\439\test.cpp                               | C++      |          0 |          0 |          1 |          1 |
+| d:\vscode_demo\比赛\Atcoder\440\a.cpp                                  | C++      |         22 |          2 |          4 |         28 |
+| d:\vscode_demo\比赛\Atcoder\440\b.cpp                                  | C++      |         28 |          1 |          4 |         33 |
+| d:\vscode_demo\比赛\Atcoder\440\c.cpp                                  | C++      |         37 |          3 |          9 |         49 |
+| d:\vscode_demo\比赛\Atcoder\440\d.cpp                                  | C++      |         50 |          4 |          6 |         60 |
+| d:\vscode_demo\比赛\Atcoder\441\a.cpp                                  | C++      |         27 |          1 |          4 |         32 |
+| d:\vscode_demo\比赛\Atcoder\441\b.cpp                                  | C++      |         49 |          1 |          5 |         55 |
+| d:\vscode_demo\比赛\Atcoder\441\c.cpp                                  | C++      |         32 |          1 |          6 |         39 |
+| d:\vscode_demo\比赛\Atcoder\441\d.cpp                                  | C++      |         47 |          2 |          6 |         55 |
+| d:\vscode_demo\比赛\Atcoder\441\e.cpp                                  | C++      |         33 |          2 |          7 |         42 |
+| d:\vscode_demo\比赛\codeforces\div 2\1070\a.cpp                        | C++      |         37 |          0 |          3 |         40 |
+| d:\vscode_demo\比赛\codeforces\div 2\1070\b.cpp                        | C++      |         46 |          1 |          3 |         50 |
+| d:\vscode_demo\比赛\codeforces\div 2\1070\c.cpp                        | C++      |         72 |          1 |          3 |         76 |
+| d:\vscode_demo\比赛\codeforces\div 2\186\a.cpp                         | C++      |         34 |          0 |          4 |         38 |
+| d:\vscode_demo\比赛\codeforces\div 2\186\b.cpp                         | C++      |         43 |          2 |          4 |         49 |
+| d:\vscode_demo\比赛\codeforces\div 2\186\c.cpp                         | C++      |         38 |          0 |          7 |         45 |
+| d:\vscode_demo\比赛\codeforces\div 2\186\d.cpp                         | C++      |         63 |          2 |          8 |         73 |
+| d:\vscode_demo\比赛\codeforces\div 3\1071\a.cpp                        | C++      |         56 |          0 |          3 |         59 |
+| d:\vscode_demo\比赛\codeforces\div 3\1071\b.cpp                        | C++      |         51 |          2 |          3 |         56 |
+| d:\vscode_demo\比赛\codeforces\div 3\1071\c.cpp                        | C++      |         32 |          0 |          3 |         35 |
+| d:\vscode_demo\比赛\codeforces\div 3\1071\d.cpp                        | C++      |         35 |          0 |          2 |         37 |
+| d:\vscode_demo\比赛\codeforces\div 3\1071\e.cpp                        | C++      |         58 |          3 |          3 |         64 |
+| d:\vscode_demo\比赛\codeforces\div 3\1072\a.cpp                        | C++      |         30 |          0 |          4 |         34 |
+| d:\vscode_demo\比赛\codeforces\div 3\1072\b.cpp                        | C++      |         31 |          0 |          4 |         35 |
+| d:\vscode_demo\比赛\codeforces\div 3\1072\c.cpp                        | C++      |         41 |          0 |          4 |         45 |
+| d:\vscode_demo\比赛\codeforces\div 3\1072\d.cpp                        | C++      |         19 |          0 |          5 |         24 |
+| d:\vscode_demo\比赛\codeforces\div4\a.cpp                              | C++      |         23 |          0 |          4 |         27 |
+| d:\vscode_demo\比赛\codeforces\div4\b.cpp                              | C++      |         25 |          0 |          5 |         30 |
+| d:\vscode_demo\比赛\codeforces\div4\c.cpp                              | C++      |         35 |          2 |          7 |         44 |
+| d:\vscode_demo\比赛\codeforces\div4\d.cpp                              | C++      |         29 |          0 |          6 |         35 |
+| d:\vscode_demo\比赛\codeforces\div4\e.cpp                              | C++      |         22 |          0 |          5 |         27 |
+| d:\vscode_demo\比赛\codeforces\goodbye\a.cpp                           | C++      |         30 |          0 |          4 |         34 |
+| d:\vscode_demo\比赛\codeforces\goodbye\b.cpp                           | C++      |         50 |          0 |          4 |         54 |
+| d:\vscode_demo\比赛\codeforces\goodbye\c.cpp                           | C++      |         37 |          0 |          5 |         42 |
+| d:\vscode_demo\比赛\pta\a.cpp                                          | C++      |         20 |          1 |          4 |         25 |
+| d:\vscode_demo\比赛\pta\b.cpp                                          | C++      |         33 |          1 |          4 |         38 |
+| d:\vscode_demo\比赛\pta\c.cpp                                          | C++      |         28 |          1 |          5 |         34 |
+| d:\vscode_demo\比赛\pta\d.cpp                                          | C++      |         34 |          1 |          6 |         41 |
+| d:\vscode_demo\比赛\pta\e.cpp                                          | C++      |         45 |          2 |          4 |         51 |
+| d:\vscode_demo\比赛\pta\f.cpp                                          | C++      |         33 |          4 |          6 |         43 |
+| d:\vscode_demo\比赛\pta\g.cpp                                          | C++      |         40 |          1 |          5 |         46 |
+| d:\vscode_demo\比赛\pta\h.cpp                                          | C++      |         19 |          1 |          5 |         25 |
+| d:\vscode_demo\比赛\校赛\2025新生周赛2\a.cpp                                 | C++      |         27 |          0 |          3 |         30 |
+| d:\vscode_demo\比赛\校赛\2025新生周赛2\b.cpp                                 | C++      |         38 |         53 |          7 |         98 |
+| d:\vscode_demo\比赛\校赛\2025新生周赛2\c.cpp                                 | C++      |         47 |          0 |          3 |         50 |
+| d:\vscode_demo\比赛\校赛\2025新生周赛2\d.cpp                                 | C++      |         34 |          0 |          3 |         37 |
+| d:\vscode_demo\比赛\校赛\green bird cup\L.cpp                            | C++      |         58 |          1 |          3 |         62 |
+| d:\vscode_demo\比赛\校赛\green bird cup\ctest.cpp                        | C++      |         61 |          1 |          3 |         65 |
+| d:\vscode_demo\比赛\校赛\green bird cup\e.cpp                            | C++      |         95 |          2 |          3 |        100 |
+| d:\vscode_demo\比赛\校赛\green bird cup\g.cpp                            | C++      |         34 |          1 |          2 |         37 |
+| d:\vscode_demo\比赛\校赛\green bird cup\k.cpp                            | C++      |         61 |          1 |          3 |         65 |
+| d:\vscode_demo\比赛\校赛\green bird cup\生日礼物.cpp                         | C++      |         25 |          0 |          4 |         29 |
+| d:\vscode_demo\比赛\校赛\北京信息科技\b.cpp                                    | C++      |         41 |          0 |          4 |         45 |
+| d:\vscode_demo\比赛\校赛\北京信息科技\c.cpp                                    | C++      |         32 |          0 |          3 |         35 |
+| d:\vscode_demo\比赛\校赛\北京信息科技\e.cpp                                    | C++      |         38 |          0 |          3 |         41 |
+| d:\vscode_demo\比赛\校赛\北京信息科技\h.cpp                                    | C++      |         25 |          0 |          4 |         29 |
+| d:\vscode_demo\比赛\校赛\华中农业新生赛14\a.cpp                                 | C++      |         38 |          0 |          2 |         40 |
+| d:\vscode_demo\比赛\校赛\华中农业新生赛14\c.cpp                                 | C++      |         43 |          0 |          2 |         45 |
+| d:\vscode_demo\比赛\校赛\华中农业新生赛14\f.cpp                                 | C++      |         50 |          0 |          2 |         52 |
+| d:\vscode_demo\比赛\校赛\华中农业新生赛14\g.cpp                                 | C++      |         70 |          5 |          2 |         77 |
+| d:\vscode_demo\比赛\校赛\华中农业新生赛14\k.cpp                                 | C++      |         28 |          1 |          3 |         32 |
+| d:\vscode_demo\比赛\校赛\华中农业新生赛14\m.cpp                                 | C++      |         35 |          1 |          2 |         38 |
+| d:\vscode_demo\比赛\校赛\华中热身赛\a.cpp                                     | C++      |         31 |          0 |          2 |         33 |
+| d:\vscode_demo\比赛\校赛\华中热身赛\b.cpp                                     | C++      |         37 |          0 |          2 |         39 |
+| d:\vscode_demo\比赛\校赛\华中热身赛\c.cpp                                     | C++      |         42 |          0 |          4 |         46 |
+| d:\vscode_demo\比赛\校赛\华中热身赛\d.cpp                                     | C++      |         24 |          0 |          3 |         27 |
+| d:\vscode_demo\比赛\校赛\华中热身赛\e.cpp                                     | C++      |         24 |          1 |          2 |         27 |
+| d:\vscode_demo\比赛\校赛\广州赛\J.cpp                                       | C++      |         23 |          0 |          2 |         25 |
+| d:\vscode_demo\比赛\校赛\广州赛\a.cpp                                       | C++      |         39 |          0 |          2 |         41 |
+| d:\vscode_demo\比赛\校赛\广州赛\b.cpp                                       | C++      |         39 |          0 |          2 |         41 |
+| d:\vscode_demo\比赛\校赛\广州赛\c.cpp                                       | C++      |         55 |          3 |          5 |         63 |
+| d:\vscode_demo\比赛\校赛\广州赛\e.cpp                                       | C++      |         52 |          0 |          5 |         57 |
+| d:\vscode_demo\比赛\校赛\广州赛\h.cpp                                       | C++      |         20 |          0 |          0 |         20 |
+| d:\vscode_demo\比赛\校赛\广州赛\l.cpp                                       | C++      |         39 |          0 |          2 |         41 |
+| d:\vscode_demo\比赛\校赛\广州赛\m.cpp                                       | C++      |         37 |          0 |          0 |         37 |
+| d:\vscode_demo\比赛\校赛\核桃杯\a.cpp                                       | C++      |         25 |          1 |          3 |         29 |
+| d:\vscode_demo\比赛\校赛\核桃杯\全概率.cpp                                     | C++      |         39 |          1 |          3 |         43 |
+| d:\vscode_demo\比赛\校赛\核桃杯\轮符雨.cpp                                     | C++      |         42 |          0 |          3 |         45 |
+| d:\vscode_demo\比赛\核桃杯\b.cpp                                          | C++      |         75 |          0 |          3 |         78 |
+| d:\vscode_demo\比赛\核桃杯\f.cpp                                          | C++      |         43 |          1 |          4 |         48 |
+| d:\vscode_demo\比赛\核桃杯\h.cpp                                          | C++      |         23 |          1 |          4 |         28 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 119\d.cpp                              | C++      |         68 |          2 |          5 |         75 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 119\e.cpp                              | C++      |         58 |          0 |          3 |         61 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 121\a.cpp                              | C++      |         31 |          1 |          4 |         36 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 121\b.cpp                              | C++      |         50 |          0 |          4 |         54 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 121\c.cpp                              | C++      |         46 |          1 |          3 |         50 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 121\d.cpp                              | C++      |         46 |          1 |          4 |         51 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 123\a.cpp                              | C++      |         30 |          1 |          3 |         34 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 123\b.cpp                              | C++      |         29 |          1 |          3 |         33 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 123\c.cpp                              | C++      |         48 |          1 |          3 |         52 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 123\d.cpp                              | C++      |         21 |          1 |          4 |         26 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 123\e.cpp                              | C++      |         39 |          2 |          3 |         44 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 124\a.cpp                              | C++      |         30 |          1 |          4 |         35 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 124\b.cpp                              | C++      |         32 |          1 |          4 |         37 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 124\c.cpp                              | C++      |         60 |          4 |          8 |         72 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 124\d.cpp                              | C++      |         38 |          1 |          4 |         43 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 124\e.cpp                              | C++      |         34 |          1 |          5 |         40 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 125\a.cpp                              | C++      |         28 |          1 |          4 |         33 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 125\b.cpp                              | C++      |         32 |          0 |          6 |         38 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 125\c.cpp                              | C++      |         39 |          0 |          5 |         44 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 125\d.cpp                              | C++      |         40 |          0 |          8 |         48 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 125\e.cpp                              | C++      |         68 |          0 |          7 |         75 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 125\f.cpp                              | C++      |         20 |          0 |          5 |         25 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 126\a.cpp                              | C++      |         24 |          1 |          5 |         30 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 126\b.cpp                              | C++      |         28 |          1 |          4 |         33 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 126\c.cpp                              | C++      |         32 |          1 |          4 |         37 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 126\d.cpp                              | C++      |         38 |          1 |          4 |         43 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 126\e.cpp                              | C++      |         18 |          1 |          5 |         24 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 126\g.cpp                              | C++      |         18 |          1 |          5 |         24 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 127\a.cpp                              | C++      |         25 |          1 |          4 |         30 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 127\b.cpp                              | C++      |         68 |          0 |          6 |         74 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 127\c.cpp                              | C++      |         46 |          3 |          4 |         53 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 127\d.cpp                              | C++      |         44 |          4 |          9 |         57 |
+| d:\vscode_demo\比赛\牛客\周赛\Round 127\f.cpp                              | C++      |         27 |          0 |          6 |         33 |
+| d:\vscode_demo\比赛\牛客\挑战赛\a.cpp                                       | C++      |         18 |          1 |          5 |         24 |
+| d:\vscode_demo\比赛\牛客\月赛\126\a.cpp                                    | C++      |         43 |          0 |          2 |         45 |
+| d:\vscode_demo\比赛\牛客\月赛\126\b.cpp                                    | C++      |         49 |          1 |          2 |         52 |
+| d:\vscode_demo\比赛\牛客\月赛\127\a.cpp                                    | C++      |         26 |          1 |          5 |         32 |
+| d:\vscode_demo\比赛\牛客\月赛\127\b.cpp                                    | C++      |         38 |          1 |          7 |         46 |
+| d:\vscode_demo\比赛\牛客\月赛\127\c.cpp                                    | C++      |         65 |          0 |          4 |         69 |
+| d:\vscode_demo\比赛\牛客\月赛\127\d.cpp                                    | C++      |         69 |          0 |          9 |         78 |
+| d:\vscode_demo\比赛\牛客\月赛\127\e.cpp                                    | C++      |         57 |          0 |         14 |         71 |
+| d:\vscode_demo\比赛\牛客\练习赛\146\c.cpp                                   | C++      |         23 |          1 |          4 |         28 |
+| d:\vscode_demo\洛谷\dfs\P1535.cpp                                      | C++      |         19 |          1 |          5 |         25 |
+| d:\vscode_demo\洛谷\dfs\P1562.cpp                                      | C++      |         48 |          2 |          7 |         57 |
+| d:\vscode_demo\洛谷\dfs\P1706.cpp                                      | C++      |         65 |          2 |         10 |         77 |
+| d:\vscode_demo\洛谷\dp\AT_chokudai_S001_h LIS.cpp                      | C++      |         45 |          2 |          5 |         52 |
+| d:\vscode_demo\洛谷\dp\P1020.cpp                                       | C++      |         47 |          1 |          8 |         56 |
+| d:\vscode_demo\洛谷\dp\P1091.cpp                                       | C++      |         39 |          3 |          6 |         48 |
+| d:\vscode_demo\洛谷\dp\P1216.cpp                                       | C++      |         48 |          1 |          7 |         56 |
+| d:\vscode_demo\洛谷\dp\P1535.cpp                                       | C++      |         29 |          1 |          7 |         37 |
+| d:\vscode_demo\洛谷\dp\最大子段和.cpp                                       | C++      |         29 |          1 |          2 |         32 |
+| d:\vscode_demo\洛谷\ttest.cpp                                          | C++      |         67 |          0 |          7 |         74 |
+| d:\vscode_demo\洛谷\贪心\P1803.cpp                                       | C++      |         69 |          1 |         13 |         83 |
+| d:\vscode_demo\洛谷\贪心\P2082.cpp                                       | C++      |         41 |          2 |          8 |         51 |
+| d:\vscode_demo\洛谷\队列与栈\约瑟夫问题.cpp                                     | C++      |         24 |          1 |          5 |         30 |
+| d:\vscode_demo\牛客\dp\传球游戏.cpp                                        | C++      |         29 |          1 |          5 |         35 |
+| d:\vscode_demo\牛客\dp\方块与收纳盒.cpp                                      | C++      |         28 |          0 |          4 |         32 |
+| d:\vscode_demo\牛客\dp\滑雪.cpp                                          | C++      |         51 |          1 |         10 |         62 |
+| d:\vscode_demo\牛客\dp\舔狗舔到最后一无所有.cpp                                  | C++      |         29 |          0 |          5 |         34 |
+| d:\vscode_demo\牛客\子段\子段异或.cpp                                        | C++      |         50 |          3 |          4 |         57 |
+| d:\vscode_demo\牛客\栈与队列\Rails.cpp                                     | C++      |         47 |          2 |          3 |         52 |
+| d:\vscode_demo\牛客\栈与队列\吐泡泡.cpp                                       | C++      |         58 |          0 |          4 |         62 |
+| d:\vscode_demo\牛客\栈与队列\好串.cpp                                        | C++      |         44 |          1 |          3 |         48 |
+| d:\vscode_demo\牛客\栈与队列\括号序列.cpp                                      | C++      |         46 |          0 |          6 |         52 |
+| d:\vscode_demo\牛客\栈与队列\栈和排序.cpp                                      | C++      |         44 |          1 |          3 |         48 |
+| d:\vscode_demo\牛客\栈与队列\牛牛与后缀表达式.cpp                                  | C++      |         61 |          1 |          4 |         66 |
+| Total                                                                |          |      9,300 |        292 |      1,189 |     10,781 |
++----------------------------------------------------------------------+----------+------------+------------+------------+------------+

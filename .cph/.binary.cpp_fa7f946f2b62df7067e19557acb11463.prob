@@ -1,0 +1,1 @@
+{"name":"Local: binary","url":"d:\\vscode_demo\\binary.cpp","tests":[{"id":1764166665679,"input":"2\n5\n1 2 3 4 5\n3\n3 2 1","output":"2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\binary.cpp","group":"local","local":true}

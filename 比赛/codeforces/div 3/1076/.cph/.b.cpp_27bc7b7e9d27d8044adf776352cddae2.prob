@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"d:\\vscode_demo\\比赛\\codeforces\\div 3\\1076\\b.cpp","tests":[{"id":1769352816981,"input":"4\n4\n3 2 1 4\n3\n3 1 2\n4\n4 3 2 1\n2\n2 1\n","output":"4 1 2 3 \n3 2 1 \n4 3 2 1 \n2 1 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\codeforces\\div 3\\1076\\b.cpp","group":"local","local":true}

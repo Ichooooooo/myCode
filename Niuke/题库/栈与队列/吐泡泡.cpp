@@ -1,0 +1,61 @@
+#include<bits/stdc++.h>
+#define int long long 
+#define endl '\n' 
+#define INF 0x3f3f3f3f3f3f3f3f
+#define pi acos(-1)
+#define fi first 
+#define se second 
+using ll = long long;
+using namespace std;
+typedef pair<int,int> PII;
+typedef pair<int,PII> PIII;
+const int mod=998244353;
+const double eps = 1e-10;
+
+const int MAX = 1e5;
+
+void solve(){   
+    string s;
+    cin >> s;
+    stack<char> st;
+    char t;
+    for(int i = 0; i < s.size(); i ++){
+        if(!st.empty()){
+            if(s[i] == st.top()){
+                st.pop();
+                if(s[i] == 'o'){
+                    if(!st.empty() && st.top() == 'O'){
+                        st.pop();
+                    }else{
+                        st.push('O');
+                    }
+                }
+            }else{
+                st.push(s[i]);
+            }
+        }else{
+            st.push(s[i]);
+        }
+    }
+    char c[MAX];
+    int cnt = 0;
+    while(!st.empty()){
+        c[cnt ++] = st.top();
+        st.pop();
+    }
+    for(int i = cnt - 1; i >= 0; i --){
+        cout << c[i];
+    }
+    cout << endl;
+}
+
+signed main(){
+    ios::sync_with_stdio(false);
+    cin.tie(0),cout.tie(0);
+    int n=1;
+    cin>>n;
+    while(n--){
+        solve();
+    }
+    return 0;
+}

@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"d:\\vscode_demo\\比赛\\牛客\\周赛\\Round 125\\b.cpp","tests":[{"id":1767524797031,"input":"3\n5\n3 1 4 1 5\n6\n2 3 1 4 2 3\n2\n1 1","output":"3 1 1 1 5\n2 2 1 2 2 3\n1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\牛客\\周赛\\Round 125\\b.cpp","group":"local","local":true}

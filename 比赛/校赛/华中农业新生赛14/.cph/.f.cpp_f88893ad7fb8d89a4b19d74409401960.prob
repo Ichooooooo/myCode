@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"d:\\vscode_demo\\华中农业新生赛14\\f.cpp","tests":[{"id":1764911032604,"input":"1\n7\n3 4 5 5 4 6 4","output":"3 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\华中农业新生赛14\\f.cpp","group":"local","local":true}

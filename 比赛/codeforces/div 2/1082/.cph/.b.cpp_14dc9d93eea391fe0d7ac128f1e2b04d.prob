@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/home/icho/Code/vscode_demo/比赛/codeforces/div 2/1082/b.cpp","tests":[{"id":1773300945534,"input":"4\n5\nababa\n5\nbaaba\n5\n?b?ab\n6\naa?b?b\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/比赛/codeforces/div 2/1082/b.cpp","group":"local","local":true}

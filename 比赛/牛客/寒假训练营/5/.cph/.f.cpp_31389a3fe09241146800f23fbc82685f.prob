@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"/home/icho/Code/vscode_demo/比赛/牛客/寒假训练营/5/f.cpp","tests":[{"id":1770792462459,"input":"3\n10 9 1\n1000000000 1000000000 1000000000\n1 1 4","output":"11\n500000000000000000\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/比赛/牛客/寒假训练营/5/f.cpp","group":"local","local":true}

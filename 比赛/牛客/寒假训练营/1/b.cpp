@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+#define int long long
+using namespace std;
+typedef pair<int,int> PII;
+typedef pair<int,PII> PIII;
+const int mod = 998244353;
+const double eps = 1e-10;
+
+void ovo(){   
+    int n;  cin >> n;
+    vector <int> a (n), b(n);
+    for (int & i : a)  cin >> i;
+    for (int & j : b)  cin >> j;
+    
+    int mn = ranges :: min(b);
+    ranges :: sort (a);  
+    int p = upper_bound(a.begin(), a.end(), mn) - a.begin();
+    int ans = 1;
+    auto zhs = [](int x) -> int {
+        int an = 1;
+        for (int i = 1; i <= x; i ++) {
+            an = an * i % mod;
+        }
+        return an;
+    };
+
+    ans = ans * zhs(p) % mod * zhs (n - p) % mod;
+    cout << ans << endl;
+}
+
+signed main(){
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    
+    int _=1;
+    cin>>_;
+
+    while(_--){
+        ovo();
+    }
+    return 0;
+}

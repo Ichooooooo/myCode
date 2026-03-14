@@ -1,0 +1,1 @@
+{"name":"Local: L","url":"d:\\vscode_demo\\比赛\\菜鸟杯\\L.cpp","tests":[{"id":1765763498388,"input":"3\n1 1\n4 5\n1 4","output":"52125"},{"id":1765763509409,"input":"6\n1 1\n1 2\n1 3\n1 4\n1 5\n1 6","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\菜鸟杯\\L.cpp","group":"local","local":true}

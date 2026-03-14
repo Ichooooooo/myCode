@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"/home/icho/Code/vscode_demo/比赛/牛客/月赛/129/f.cpp","tests":[{"id":1772455694216,"input":"8 5\n8 9 12 9 14 10 21 3\n2\n1 2 7\n2\n1 1 5\n2","output":"22\n5\n12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/比赛/牛客/月赛/129/f.cpp","group":"local","local":true}

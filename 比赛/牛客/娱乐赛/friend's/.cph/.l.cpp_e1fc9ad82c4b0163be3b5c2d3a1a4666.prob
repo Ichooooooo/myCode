@@ -1,0 +1,1 @@
+{"name":"Local: l","url":"/home/icho/Code/vscode_demo/比赛/牛客/娱乐赛/friend's/l.cpp","tests":[{"id":1771078714677,"input":"8\n1 2 3 4 1 3 2 4","output":""},{"id":1771078721022,"input":"5\n1 2 3 2 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/比赛/牛客/娱乐赛/friend's/l.cpp","group":"local","local":true}

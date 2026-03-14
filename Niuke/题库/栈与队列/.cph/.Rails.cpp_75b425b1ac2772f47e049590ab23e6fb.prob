@@ -1,0 +1,1 @@
+{"name":"Local: Rails","url":"d:\\vscode_demo\\栈与队列\\Rails.cpp","tests":[{"id":1765263329679,"input":"5\n1 2 3 4 5\n5 4 1 2 3\n0\n6\n6 5 4 3 2 1\n0\n0","output":"Yes\nNo\n\nYes\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\栈与队列\\Rails.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 子段异或","url":"d:\\vscode_demo\\牛客\\子段\\子段异或.cpp","tests":[{"id":1766154121128,"input":"5\n1 2 3 2 1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\牛客\\子段\\子段异或.cpp","group":"local","local":true}

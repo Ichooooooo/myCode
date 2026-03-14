@@ -1,0 +1,1 @@
+{"name":"Local: Addition on a Segment","url":"/home/icho/Code/vscode_demo/codeforces/1200/Addition on a Segment.cpp","tests":[{"id":1770540604212,"input":"3\n5\n0 5 1 0 1\n3\n3 2 1\n5\n1 1 1 1 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/codeforces/1200/Addition on a Segment.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: d","url":"d:\\vscode_demo\\比赛\\pta\\d.cpp","tests":[{"id":1767274349263,"input":"6 1\nXiaoA 1\nXiaoB 1\nXiaoC 1\nXiaoD 2\nXiaoE 2\nXiaoF 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\pta\\d.cpp","group":"local","local":true}

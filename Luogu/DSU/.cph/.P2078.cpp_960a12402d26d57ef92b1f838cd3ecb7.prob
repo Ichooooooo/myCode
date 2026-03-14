@@ -1,0 +1,1 @@
+{"name":"Local: P2078","url":"/home/icho/Code/vscode_demo/Luogu/DSU/P2078.cpp","tests":[{"id":1772694300396,"input":"4 3 4 2\n1 1\n1 2\n2 3\n1 3\n-1 -2\n-3 -3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/Luogu/DSU/P2078.cpp","group":"local","local":true}

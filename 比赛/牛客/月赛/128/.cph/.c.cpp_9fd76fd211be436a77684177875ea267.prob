@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"d:\\vscode_demo\\比赛\\牛客\\月赛\\128\\c.cpp","tests":[{"id":1769774333402,"input":"4\n12 3 2\n9 1 1\n3 0 3\n8 0 0","output":"010100101001"},{"id":1769774347111,"input":"1\n3\n3 0 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\牛客\\月赛\\128\\c.cpp","group":"local","local":true}

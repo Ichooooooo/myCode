@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"d:\\vscode_demo\\比赛\\核桃杯\\b.cpp","tests":[{"id":1766296617733,"input":"4\n3 3 1\n4 5 2\n1 1 1\n1 2 0","output":"Yes\n4 3 5\n7 9 1\n2 8 6\nYes\n2 17 16 4 3\n15 18 14 13 12\n11 10 9 19 8\n20 1 7 6 5\nNo\nYes\n2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\核桃杯\\b.cpp","group":"local","local":true}

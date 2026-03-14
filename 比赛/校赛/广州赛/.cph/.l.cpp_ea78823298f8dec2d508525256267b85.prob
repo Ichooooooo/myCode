@@ -1,0 +1,1 @@
+{"name":"Local: l","url":"d:\\vscode_demo\\广州赛\\l.cpp","tests":[{"id":1764678590496,"input":"2\n2\n1 2\n5\n1 2\n2 3\n3 4\n3 5","output":"2 0\n5 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\广州赛\\l.cpp","group":"local","local":true}

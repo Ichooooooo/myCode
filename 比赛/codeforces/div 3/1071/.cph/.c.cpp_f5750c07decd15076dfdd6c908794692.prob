@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"d:\\vscode_demo\\比赛\\codeforces\\Round 1071 (Div. 3)\\c.cpp","tests":[{"id":1766731195538,"input":"3\n3\n5 7 9\n2\n2 3\n7\n11 74 5 22 52 97 82\n","output":"5\n2\n6\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\codeforces\\Round 1071 (Div. 3)\\c.cpp","group":"local","local":true}

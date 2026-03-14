@@ -1,0 +1,1 @@
+{"name":"Local: Split","url":"d:\\vscode_demo\\codeforces\\+200rating\\Split.cpp","tests":[{"id":1766068078056,"input":"4\n3 2\n1 1 1\n4 2\n1 2 1 2\n8 2\n3 3 3 3 2 2 2 2\n6 3\n1 1 1 1 1 1\n","output":"0\n7\n18\n11\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\codeforces\\+200rating\\Split.cpp","group":"local","local":true}

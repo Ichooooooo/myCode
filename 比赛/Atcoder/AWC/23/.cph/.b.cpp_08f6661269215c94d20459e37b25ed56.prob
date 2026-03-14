@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/home/icho/Code/vscode_demo/比赛/Atcoder/AWC/23/b.cpp","tests":[{"id":1773227193560,"input":"3\n5 2\n3 1\n4\n","output":""},{"id":1773227202000,"input":"3\n2 10\n1 5\n3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/比赛/Atcoder/AWC/23/b.cpp","group":"local","local":true}

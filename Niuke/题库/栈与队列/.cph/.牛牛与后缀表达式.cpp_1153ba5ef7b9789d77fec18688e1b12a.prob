@@ -1,0 +1,1 @@
+{"name":"Local: 牛牛与后缀表达式","url":"d:\\vscode_demo\\栈与队列\\牛牛与后缀表达式.cpp","tests":[{"id":1765204127774,"input":"3.5.2.-*7.+@","output":"16"},{"id":1765204176168,"input":"10.28.30./*7.-@","output":"-7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\栈与队列\\牛牛与后缀表达式.cpp","group":"local","local":true}

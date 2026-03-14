@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"d:\\vscode_demo\\比赛\\菜鸟杯\\e.cpp","tests":[{"id":1765779102421,"input":"9.0980\n9.980","output":""},{"id":1765788959437,"input":"9.98 9.9810","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\vscode_demo\\比赛\\菜鸟杯\\e.cpp","group":"local","local":true}
