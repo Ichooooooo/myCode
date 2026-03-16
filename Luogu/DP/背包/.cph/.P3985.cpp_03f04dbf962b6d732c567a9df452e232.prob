@@ -1,0 +1,1 @@
+{"name":"Local: P3985","url":"/home/icho/Code/vscode_demo/Luogu/DP/背包/P3985.cpp","tests":[{"id":1773643591795,"input":"5 10\n2 800\n5 400\n5 300\n3 400\n2 200\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/Luogu/DP/背包/P3985.cpp","group":"local","local":true}

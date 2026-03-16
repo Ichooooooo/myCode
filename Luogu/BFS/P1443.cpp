@@ -1,38 +1,38 @@
 
 #include<bits/stdc++.h>
 #define int long long
+#define debug(x) cerr << #x << ": " << x << '\n';
 using namespace std;
 const int mod = 998244353;
 
-int dx[8] = {2, -2, 2, -2, 1, -1, 1, -1};
-int dy[8] = {1, -1, -1, 1, 2, -2, -2, 2};
+int dx[8] = {-1, 1, -1, 1, 2, -2, 2, -2};
+int dy[8] = {-2, 2, 2, -2, 1, -1, -1, 1};
 
-void ovo(){   
+void ovo() {   
     int n, m, x, y;
     cin >> n >> m >> x >> y;
-    vector <vector <int>> dist (n + 1, vector <int> (m + 1, -1));
 
-    dist[x][y] = 0;
-    queue<array<int, 2>> qu;
-    qu.push({x, y});
+    vector <vector <int>> dist(n, vector <int> (m, -1));
+    dist[x - 1][y - 1] = 0;
+    queue <array <int, 2>> qu;
+    qu.push({x -1 , y - 1});
 
     while (!qu.empty()) {
-        auto [x, y] = qu.front(); 
-        qu.pop();
+        auto [x, y] = qu.front(); qu.pop();
 
         for (int i = 0; i < 8; i ++) {
             int xx = x + dx[i];
             int yy = y + dy[i];
-            if (xx >= 1 && xx <= n && yy >= 1 && yy <= m && dist[xx][yy] == -1) {
+            if (xx >= 0 && xx < n && yy >= 0 && yy < m && dist[xx][yy] == -1) {
                 dist[xx][yy] = dist[x][y] + 1;
                 qu.push({xx, yy});
-            }
+            } 
         }
     }
 
-    for (int i = 1; i <= n; i ++) {
-        for (int j = 1; j <= m; j ++) {
-            cout << dist[i][j] << " \n"[j == m];
+    for (int i = 0; i < n; i ++) {
+        for (int j = 0; j < m; j ++) {
+            cout << dist[i][j] << " \n"[j == m - 1];
         }
     }
 }

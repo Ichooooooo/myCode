@@ -13,9 +13,11 @@ int main() {
     vector<int> dp(W + 1, INF); // dp表示长度为W的时候的最小的数量cnt
     dp[0] = 0; // 1. 我们dp求的是最小值 2. 长度W不一定能够到达 -> 初始化dp[0] = 0, 其他为INF
 
+    
     for (int i = 0; i < N; ++i) {
         int w, cnt;
         cin >> w >> cnt;
+        
 
         for (int k = 1; cnt > 0; k <<= 1) {
             int take = min(k, cnt);

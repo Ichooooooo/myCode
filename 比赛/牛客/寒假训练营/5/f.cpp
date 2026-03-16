@@ -10,7 +10,7 @@ void ovo(){
 
     int all = n / 56, ans = 0, res = n % 56;
     int x = 8 * a, y = 28 * b, z = 7 * (a + b);
-
+    
     if (all > 1) {
         all -= 1;
         res += 56;
@@ -19,7 +19,7 @@ void ovo(){
     int mx = max ({x, y, z});
     ans = all * mx;
 
-    int rans = 0;
+    int rans=0;
     for (int i = 0; i * 7 <= res; i ++) {
         int tres = res - i * 7; // res
         int ab = min (tres, i); // i
@@ -27,6 +27,7 @@ void ovo(){
         rans = max (rans, tot);
     }
 
+    
     cout << ans + rans << '\n';
 }
 
