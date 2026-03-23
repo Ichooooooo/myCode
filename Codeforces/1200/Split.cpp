@@ -12,37 +12,32 @@ const int mod=998244353;
 const double eps = 1e-10;
 
 void solve(){   
-    int n, k;
-    cin >> n >> k;
-    vector<int> cnt(n + 1, 0);
-    vector<int> a(n);
-    for(int & i : a){
-        cin >> i;
-        cnt[i] ++;
+    int n;
+    cin >> n;
+    int c1 = 0, c2 = 0, c3 = 0, c4 = 0, t;
+    unordered_map<int, int> mp;
+    for(int i = 0; i < 2 * n; i ++){
+        cin >> t;
+        mp[t] ++;
     }
-    for(int i = 1; i <= n; i ++){
-        if(cnt[i] % k) {
-            cout << 0 <<endl;
-            return;
+    for(auto &[a, b]: mp) {
+        if(b == 1) {
+            c1 ++;
+        }else if(b & 1) {
+            c2 ++;
+        }else if(b % 4 == 2){
+            c3 ++;
         }else {
-            cnt[i] /= k;
+            c4 ++;
         }
     }
     ll ans = 0;
-    vector<int> cn(n + 1);
-    // for(int l = 0, r = 0; r < n && r >= l; r ++) {
-    //     cn[a[r]] ++;
-    //     while(cn[a[r]] > cnt[a[r]]) {
-    //         cn[a[l ++]] --;
-    //     }
-    //     ans += r - l + 1;
-    // }
-    for(int l = n - 1, r = n - 1 ; l >= 0 && r >= l ; l --) {
-        cn[a[l]] ++;
-        while(cn[a[l]] > cnt[a[l]]) {
-            cn[a[r --]] --;
-        }
-        ans += r - l + 1;
+    // cout << c1 << ' ' << c2 << ' ' << c3 << ' ' << c4 << endl;
+    if(c1 == 0 && c2 == 0 && c4 & 1) {
+        ans = 2 * c3 + (c4 - 1) * 2;
+    }else {
+        ans = 2 * c3;
+        ans = ans + c1 + c2 + 2 * c4;
     }
     cout << ans << endl;
 }

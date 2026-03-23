@@ -6,6 +6,14 @@ const int mod = 998244353;
 const int N = 1e5 + 10;
 int f[N], g[N]; 
 
+void init () {
+    f[0] = 1, g[0] = 1;  // very important
+    for (int i = 1; i < N; i++) {
+        f[i] = f[i - 1] * i % mod;
+        g[i] = qpow(f[i], mod - 2) % mod;
+    }
+}
+
 int qpow (int a, int b)
 {
     int res = 1;
@@ -36,12 +44,8 @@ int main ()
     int _ = 1;
     // cin >> _;
 
-    f[0] = 1, g[0] = 1;
-    for (int i = 1; i < N; i++) {
-        f[i] = f[i - 1] * i % mod;
-        g[i] = qpow(f[i], mod - 2) % mod;
-    }
-
+    init();
+    
     while (_--) {
         solve();
     }
