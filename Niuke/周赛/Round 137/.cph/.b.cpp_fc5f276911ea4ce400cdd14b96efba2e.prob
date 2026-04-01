@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/home/icho/Code/vscode_demo/Niuke/周赛/Round 137/b.cpp","tests":[{"id":1774783453904,"input":"5\n8\nab!c-de!\n3\n!-a\n5\nabc--\n10\nab!cd-!e-f\n5\naa---","output":"edab\na\na\ncabf\nEmpty"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/Niuke/周赛/Round 137/b.cpp","group":"local","local":true}

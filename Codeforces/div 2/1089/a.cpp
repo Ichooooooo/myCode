@@ -5,19 +5,16 @@ using namespace std;
 const int mod = 998244353;
 
 void ovo() {
-    int a = 1, b = 2, c = 0;
-    for (int i = 0; i < 100; i++) {
-        c = a + b;
-        a = b;
-        b = c;
-        cout << c << '\n';
+    int n; cin >> n;
+    for (int i = n; i >= 1; i --) {
+        cout << i << " \n"[i == 1];
     }
 }
 
 signed main() {
     ios::sync_with_stdio(false); cin.tie(0);
     int _=1;
-    // cin>>_;
+    cin>>_;
 
     while (_--) ovo();
 }

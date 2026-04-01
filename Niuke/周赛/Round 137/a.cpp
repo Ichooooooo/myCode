@@ -5,13 +5,8 @@ using namespace std;
 const int mod = 998244353;
 
 void ovo() {
-    int a = 1, b = 2, c = 0;
-    for (int i = 0; i < 100; i++) {
-        c = a + b;
-        a = b;
-        b = c;
-        cout << c << '\n';
-    }
+    int t; cin >> t;
+    cout << t / 60 / 60 << ' ' << t / 60 % 60 << ' ' << t % 60 << '\n';
 }
 
 signed main() {

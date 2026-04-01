@@ -5,13 +5,19 @@ using namespace std;
 const int mod = 998244353;
 
 void ovo() {
-    int a = 1, b = 2, c = 0;
-    for (int i = 0; i < 100; i++) {
-        c = a + b;
-        a = b;
-        b = c;
-        cout << c << '\n';
+    int n; cin >> n;
+    vector <int> a (n);
+    for (int i = 1; i <= n - 1; i ++) {
+        cin >> a[i];
     }
+
+    int ans = 1, now = 1;
+    while(now != n) {
+        now = a[now];
+        ans++;
+    }
+
+    cout << ans << '\n';
 }
 
 signed main() {

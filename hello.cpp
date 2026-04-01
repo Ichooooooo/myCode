@@ -5,7 +5,7 @@ using namespace std;
 const int mod = 998244353;
 
 void ovo() {
-    
+
 }
 
 signed main() {

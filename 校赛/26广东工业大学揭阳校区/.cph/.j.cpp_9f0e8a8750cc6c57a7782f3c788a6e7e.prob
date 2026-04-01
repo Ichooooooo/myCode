@@ -1,0 +1,1 @@
+{"name":"Local: j","url":"/home/icho/Code/vscode_demo/校赛/26广东工业大学揭阳校区/j.cpp","tests":[{"id":1774675915589,"input":"2\n5\n4","output":""},{"id":1774675918272,"input":"5\n10\n9\n7\n6\n12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/校赛/26广东工业大学揭阳校区/j.cpp","group":"local","local":true}
