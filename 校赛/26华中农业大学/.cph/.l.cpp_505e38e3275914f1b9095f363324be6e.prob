@@ -1,0 +1,1 @@
+{"name":"Local: l","url":"/home/icho/Code/vscode_demo/校赛/26华中农业大学/l.cpp","tests":[{"id":1775486567768,"input":"3 3\nD..\nR..\n.UL","output":""},{"id":1775487028621,"input":"2 2\nRD\nUL","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/校赛/26华中农业大学/l.cpp","group":"local","local":true}

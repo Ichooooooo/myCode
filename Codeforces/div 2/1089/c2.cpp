@@ -4,68 +4,78 @@
 using namespace std;
 const int mod = 998244353;
 
-int primes[19] = {1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61};
+int primes[19] = {1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 57, 59};
 
 void ovo() {
     int n; cin >> n;
-
-    vector <int> a (n + 1), b (n + 1);
-    for (int i = 1; i <= n; i++) {
+    vector <int> a (n + 1), b (n + 1), c (n + 1);
+    for (int i = 1; i <= n; i ++) {
         cin >> a[i];
     }
 
-    for (int i = 1; i <= n; i ++) {
+    for (int i = 1; i<= n; i ++) {
         cin >> b[i];
     }
 
-    vector <int> c (n + 1);
     for (int i = 1; i <= n; i ++) {
         if (i == 1) {
-            c[i] = gcd (a[i], a[i + 1]);
+            int now = gcd (a[i], a[i + 1]);
+            c[i] = (now <= b[i] ? now : a[i]);
         } else if (i == n) {
-            c[i] = gcd (a[i - 1], a[i]);
+            int now = gcd (a[i - 1], a[i]);
+            c[i] = (now <= b[i] ? now : a[i]);
         } else {
-            int x = gcd(a[i], a[i - 1]);
-            int y = gcd(a[i], a[i + 1]);
-
-            c[i] = lcm (x, y);
+            int now = lcm (gcd (a[i - 1], a[i]),  gcd (a[i + 1], a[i]));
+            c[i] = (now <= b[i] ? now : a[i]);
         }
+
+        // cerr << c[i] << ' ';
     }
 
-    const int MN = -1e5;
-    vector <vector <int> > dp (n + 1, vector <int> (19, 0));
+    // cerr << '\n';
+
+    const int INF = -1e15;
+    vector <vector <int> > dp (n + 1, vector <int> (19, INF));
 
     for (int i = 1; i <= n; i ++) {
         if (i == 1) {
+            int pas = gcd (c[i], c[i + 1]);
             for (int j = 0; j < 19; j ++) {
-                if (c[i] * primes[j] == a[i]) continue;
-                if (c[i] * primes[j] > b[i]) break;
+                if (primes[j] * c[i] > b[i] && primes[j] * c[i] != a[i]) break;
 
-                dp[i][j] = 1;
+                int now = gcd (c[i] * primes[j], c[i + 1]);
+                if (now == pas) {
+                    dp[i][j] = (c[i] * primes[j] != a[i]);
+                }
+            }
+        } else if (i == n) {
+            int rt = gcd (c[i], c[i - 1]);
+            for (int j = 0; j < 19; j ++){
+                if (primes[j] * c[i] > b[i] && primes[j] * c[i] != a[i]) break;
 
-                // cerr << "1 : " << j << '\n';
+                for (int k = 0; k < 19; k ++) {
+                    int now = gcd (c[i] * primes[j], c[i - 1] * primes[k]);
+                    if (now == rt) {
+                        dp[i][j] = max (dp[i][j], dp[i - 1][k] + (c[i] * primes[j] != a[i]));
+                    }
+                }
             }
         } else {
-            // 这个数是什么
-            // cerr << i << ": \n";
+            int rt1 = gcd (c[i], c[i - 1]);
+            int rt2 = gcd (c[i], c[i + 1]);
+            int rt = lcm (rt2, rt1);
             for (int j = 0; j < 19; j ++) {
-                if (c[i] * primes[j] == a[i]) {
-                    for (int k = 0; k < 19; k ++) {
-                        if (gcd(a[i], primes[k] * c[i - 1]) == gcd(a[i], a[i - 1]))
-                        dp[i][j] = max (dp[i][j], dp[i - 1][k]);
-                    }
-                    continue;
-                }
-                if (c[i] * primes[j] > b[i]) break;                
-                // 上个数是什么
-                int now = primes[j] * c[i];
-                // cerr << now << '\n';
-                for (int k = 0; k < 19; k ++) {
-                    int ps = primes[k] * c[i - 1];
+                // cerr << i << ": " << primes[j] << ' ' << primes[j] * c[i] << '\n';
 
-                    // cerr << "pas: " <<  ps << '\n';
-                    if (gcd(now, ps) == gcd(a[i], a[i - 1])) {
-                        dp[i][j] = max (dp[i][j], dp[i - 1][k] + 1);
+                if (primes[j] * c[i] > b[i] && primes[j] * c[i] != a[i]) break;
+
+
+                for (int k = 0; k < 19; k ++) {
+                    int g1 = gcd (c[i] * primes[j], c[i - 1] * primes[k]);
+                    int g2 = gcd (c[i] * primes[j], c[i + 1]);
+                    int now = lcm (g1, g2);
+                    if (g1 == rt1 && g2 == rt2 && now == rt) {
+                        dp[i][j] = max (dp[i][j], dp[i - 1][k] + (c[i] * primes[j] != a[i]));
                     }
                 }
             }
@@ -73,8 +83,10 @@ void ovo() {
     }
 
     int ans = 0;
-    for (int i = 0; i < 19; i ++) {
-        ans = max (ans, dp[n][i]);
+    for (int i = 1; i <= n; i ++) {
+
+        // cerr << ranges :: max (dp[i]) << '\n';
+        ans = max (ans, ranges :: max (dp[i]));
     }
 
     cout << ans << '\n';

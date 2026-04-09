@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"/home/icho/Code/vscode_demo/VP/23广东CCPC邀请赛/e.cpp","tests":[{"id":1775615292633,"input":"2\n5 3\ngdcpc\ngdcpcpcp\nsuasua\nsuas\nsususua\n3 3\na\nb\nc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/VP/23广东CCPC邀请赛/e.cpp","group":"local","local":true}

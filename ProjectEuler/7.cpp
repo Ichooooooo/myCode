@@ -4,8 +4,31 @@
 using namespace std;
 const int mod = 998244353;
 
+const int MAXN = 200005;
+int mnp[MAXN]; // 记录每个数 i 的最小质因子 (Smallest Prime Factor)
+vector<int> primes;
+
+void sieve(int n) {
+    for (int i = 2; i <= n; i++) {
+        if (mnp[i] == 0) { // i 是质数
+            mnp[i] = i;
+            primes.push_back(i);
+            // cerr << i << '\n';
+        }
+
+        if (primes.size() == 10001) {
+            cout << primes.back() << '\n';
+            return;
+        } 
+        for (int p : primes) {
+            if (p > mnp[i] || i * p > n) break;
+            mnp[i * p] = p; // 每一个合数 i*p 都是被其最小质因子 p 筛掉的
+        }
+    }
+}
+
 void ovo() {
-    
+    sieve(MAXN);
 }
 
 signed main() {

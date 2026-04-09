@@ -1,11 +1,10 @@
-
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
-const int mod = 998244353;
+using arr2 = array <int, 2>;
 
 void ovo() {
-
+    
 }
 
 signed main() {

@@ -32,7 +32,7 @@ vector<int> dijkstra(int n, int src, const vector<vector<Edge>>& g,
     // 小根堆：按距离从小到大取
     priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
 
-    dist[src] = 0;
+    dist[src] = 0;v
     pq.push({0, src});
 
     while (!pq.empty()) {
