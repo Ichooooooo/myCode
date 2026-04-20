@@ -21,12 +21,16 @@ s += " world";         // 追加字符串
 s.assign("new");       // 重新赋值
 int n = (int)s.size(); // 长度
 ```
+
 ## 3) 查找 find / rfind
 ```cpp
 string s = "a/b/c";
 size_t p1 = s.find('/');      // 第一次出现
 size_t p2 = s.rfind('/');     // 最后一次出现
 if (s.find("b/") != string::npos) { /* 存在子串 */ }
+
+string s = "abcabcabc";
+int pos = s.find("abc", 3);   // 从某个位置开始找
 ```
 
 ## 4) 截取 substr
@@ -37,14 +41,24 @@ cout << s.substr(2, 3) << "\n";  // cde：从 pos 开始取 len 个
 ```
 
 ## 5) 替换
+
+5.1 s.replace(pos, cnt, str);
 ```cpp
-5.1 string::replace（替换子串）
 string s = "abcdef";
 s.replace(1, 3, "xyz"); // bcd -> xyz
 // s == "axyzef"
+// 把 s[pos ... pos+cnt-1] 替换成 str
 ```
 
-5.2 std::replace（替换字符）
+5.2 s.replace(pos, cnt, num, ch);
+```cpp
+string s = "abcdef";
+s.replace(2, 3, 4, 'x');
+// abxxxxf
+// 把一段替换成 num 个 ch
+```
+
+5.2 std::replace（替换单个字符）
 ```cpp
 string s = "12,34,56";
 replace(s.begin(), s.end(), ',', ' '); // 逗号变空格

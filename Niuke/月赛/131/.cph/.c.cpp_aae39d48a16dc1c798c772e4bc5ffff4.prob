@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/home/icho/Code/vscode_demo/Niuke/月赛/131/c.cpp","tests":[{"id":1775822164053,"input":"2\n3\n114514","output":""},{"id":1775822170510,"input":"3\n10\n3\n5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/Niuke/月赛/131/c.cpp","group":"local","local":true}

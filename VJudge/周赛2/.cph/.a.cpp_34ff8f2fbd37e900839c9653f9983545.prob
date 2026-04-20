@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/icho/Code/vscode_demo/VJudge/周赛/周赛2/a.cpp","tests":[{"id":1775889112708,"input":"10\nin that case you should print yes and not no\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/VJudge/周赛/周赛2/a.cpp","group":"local","local":true}

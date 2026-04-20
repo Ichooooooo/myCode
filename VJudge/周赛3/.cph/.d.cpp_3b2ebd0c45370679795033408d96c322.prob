@@ -1,0 +1,1 @@
+{"name":"Local: d","url":"/home/icho/Code/vscode_demo/VJudge/周赛3/d.cpp","tests":[{"id":1776662867219,"input":"2\n4 5\n1 4 2 3\n4 15\n12 19 13 20","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/VJudge/周赛3/d.cpp","group":"local","local":true}

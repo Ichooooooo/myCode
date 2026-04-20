@@ -1,80 +1,61 @@
-#include<bits/stdc++.h>
-#include<bits/extc++.h>
+
+#include <bits/stdc++.h>
 #define int long long
 using namespace std;
-using namespace __gnu_pbds;
-using ll = long long;
-using i128 = __int128;
-using arr2 = array<int, 2>;
-using arr3 = array<int, 3>;
-const int N = (int)2e5 + 9;
-const int M = (int)1e5 + 9;
-const int mod = (int)1e9 + 7;
-template<class T>
-using ordered_set = tree<
-    T,
-    null_type,
-    less<T>,
-    rb_tree_tag,
-    tree_order_statistics_node_update>;
+using arr2 = array <int, 2>;
+const int mod = 1e9 + 7;
 
-void solve() {
-    int n;
-    cin >> n;
-    vector<int> a(n + 5);
-    for (int i = 1; i <= n; i++) {
-        cin >> a[i];
-    }
-    int m;
-    cin >> m;
-    vector<arr2> b;
-    for (int i = 1; i <= m; i++) {
-        int l, r;
-        cin >> l >> r;
-        b.push_back({r, l});
-    }
-    sort(b.begin(), b.end());
+void ovo(int x) {
+    auto check = [&] (int i, int j) -> bool {
+        string x = to_string (i);
+        string y = to_string (j);
 
-    vector<int> pre(n + 5);
-    int l = 0;
-    for (int i = 0; i < m; i++) {
-        l = max(l, b[i][1]);
-        pre[b[i][0] + 1] = l;
-    }
-    pre[1] = 0;
-    for (int i = 2; i <= n + 1; i++) {
-        if (!pre[i]) pre[i] = pre[i - 1]; 
-    }
-
-    vector<int> dp(n + 5, 1e16);
-    dp[0] = 0;
-    deque<arr2> q;
-    q.push_back({dp[0], 0});
-
-    for (int i = 1; i <= n + 1; i++) {
-        while (q.size() && q.front()[1] < pre[i]) q.pop_front();
-
-        if (q.size()) {
-            dp[i] = q.front()[0] + a[i];
+        if (x.size() != y.size()) return false;
+        int ok1 = 1, ok2 = 1;
+        for (char & cx : x) {
+            if (cx >= '0' && cx < '5') {
+                ok1 = 0;
+                break;
+            }
         }
-        
-        while (q.size() && q.back()[0] >= dp[i]) {
-            q.pop_back();
-        }
-        q.push_back({dp[i], i});
+        for (char & cx : y) {
+            if (cx >= '0' && cx < '5') {
+                ok2 = 0;
+                break;
+            }
+        }        
+
+        if (ok1 && ok2) return true;
+        return false;
+    };
+    
+    int t = x / 2, str = 1;
+    while (t) {
+        str *= 10;
+        t /= 10;
     }
 
-    cout << dp[n + 1] << "\n";
+
+    str /= 10;
+    // cerr << str << '\n';
+    for (int i = str; i <= x / 2; i ++) {
+        int j = x - i;
+        int ok = check (i, j);
+        if (ok) {
+            cout << x << '\n';
+            return;
+        }
+    }
 }
 
-signed main()
-{
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    int _ = 1;
-    cin >> _;
-    while(_--) {
-        solve();
+signed main() {
+    ios::sync_with_stdio(false); cin.tie(0);
+    int _=1;
+    // cin>>_;
+
+    while (_--) {
+        for (int i = 5; i <= 10000; i ++) {
+            ovo(i);
+        }
     }
-    return 0;
 }

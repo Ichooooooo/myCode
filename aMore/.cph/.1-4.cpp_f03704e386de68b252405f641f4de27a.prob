@@ -1,0 +1,1 @@
+{"name":"Local: 1-4","url":"/home/icho/Code/vscode_demo/aMore/1-4.cpp","tests":[{"id":1776399470141,"input":"50 4\n30 35 42 46","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/aMore/1-4.cpp","group":"local","local":true}
