@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/icho/Code/vscode_demo/Codeforces/div 2/189/a.cpp","tests":[{"id":1776835377413,"input":"5\n1 2\n1 3\n1234567890 12345678900\n2 8\n7 84\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/Codeforces/div 2/189/a.cpp","group":"local","local":true}

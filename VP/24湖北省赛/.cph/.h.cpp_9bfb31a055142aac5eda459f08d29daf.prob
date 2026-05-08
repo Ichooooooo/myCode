@@ -1,0 +1,1 @@
+{"name":"Local: h","url":"/home/icho/Code/vscode_demo/VP/24湖北省赛/h.cpp","tests":[{"id":1778141071040,"input":"5 5 3\n1 1 2\n2 2 1\n5 5 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/VP/24湖北省赛/h.cpp","group":"local","local":true}

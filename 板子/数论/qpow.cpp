@@ -1,13 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 using pi = pair<int, int>;
+const int mod = 1e9 + 7;
 
-int qpow (int a, int b, int m)//a的b次方
+int qpow (int a, int b)
 {
     int res = 1;
     while (b) {
-        if (b & 1) res = res * a % m;
-        a = a * a % m;
+        if (b & 1) res = res * a % mod;
+        a = a * a % mod;
         b >>= 1;
     }
     return res;

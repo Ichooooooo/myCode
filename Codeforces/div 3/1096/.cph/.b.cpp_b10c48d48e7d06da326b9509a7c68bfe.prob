@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/home/icho/Code/vscode_demo/Codeforces/div 3/1096/b.cpp","tests":[{"id":1777560027359,"input":"6\n2\n()\n2\n)(\n3\n(((\n6\n())(()\n4\n(()(\n5\n)()()\n","output":"YES\nYES\nNO\nYES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/Codeforces/div 3/1096/b.cpp","group":"local","local":true}

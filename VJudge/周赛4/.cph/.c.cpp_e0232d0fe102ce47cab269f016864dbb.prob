@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/home/icho/Code/vscode_demo/VJudge/周赛4/c.cpp","tests":[{"id":1777181155563,"input":"1\nxxoxxoxo","output":""},{"id":1777181160717,"input":"5\nox\no\noxxoxxox\nxxoxxoxo\nxoxxoxxx","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/VJudge/周赛4/c.cpp","group":"local","local":true}

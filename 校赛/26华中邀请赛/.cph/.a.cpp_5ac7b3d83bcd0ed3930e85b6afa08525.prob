@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/icho/Code/vscode_demo/校赛/26华中邀请赛/a.cpp","tests":[{"id":1777353872269,"input":"3 2\n2 1 3\n1 1 1","output":"499122179"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/校赛/26华中邀请赛/a.cpp","group":"local","local":true}
