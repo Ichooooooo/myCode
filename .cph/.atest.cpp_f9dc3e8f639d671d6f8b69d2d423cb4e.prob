@@ -1,1 +1,1 @@
-{"name":"Local: atest","url":"/home/icho/Code/vscode_demo/atest.cpp","tests":[{"id":1775615381526,"input":"","output":""},{"id":1777206794138,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/atest.cpp","group":"local","local":true}
+{"name":"Local: atest","url":"/home/icho/Code/vscode_demo/atest.cpp","tests":[{"id":1777206794138,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/atest.cpp","group":"local","local":true}

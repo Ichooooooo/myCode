@@ -1,0 +1,1 @@
+{"name":"Local: Partial Tree","url":"/home/icho/Code/vscode_demo/QOJ/Partial Tree.cpp","tests":[{"id":1779346533773,"input":"2\n3\n2 1\n4\n5 1 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/icho/Code/vscode_demo/QOJ/Partial Tree.cpp","group":"local","local":true}

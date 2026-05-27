@@ -14,6 +14,10 @@ int qpow (int a, int b)
     return res;
 }
 
+int inv (int x) {
+    return qpow (x, mod - 2);
+}
+
 void solve ()
 {
     
