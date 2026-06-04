@@ -1,16 +1,41 @@
 ## TODO
 
-- 1932F
-- 1955G
-- 补题FJ
-- 树状数组
+- DP
+1	Gym 105484K - Strips	
+2	Gym 104832G - Fortune Telling	
+3	CF 2041C - Cube	2024 ICPC Asia Taichung Regional
+4	CF 1906J - Count BFS Graph	
+5	CF 2045H - Missing Separators	
+6	CF 1906H 
+
+→ Strips
+→ Fortune Telling
+→ Cube
+→ Count BFS Graph
+→ Missing Separators
+→ Twin Friends
+
+- 线段树 * 2
+- dp * 3
+- 黑龙江赛循环节(?) * 2
 
 ## PLAN
 
+- dp算法板块(树形, 期望)
 - dp思维
+- CSES 树
+- 交互题
+- 线段树
 - 贪心题单
 - 二分图染色
 - ABC 的 D 模拟题
 - 分块思想
 - 搜索BFS
 - 树状数组
+- 武汉省赛补题
+- 矩阵快速幂
+
+## Think
+
+- 流程思维, 想做什么 -> 现在该做什么
+- 长期思维, 需要长时间的事情 -> 早点开始, 少量长期

@@ -63,6 +63,7 @@ ll check(int p, int l, int r, int x, int y) {
     if (x > mid) return check(2 * p + 1, mid + 1, r, x, y);
     return check (2 * p, l, mid, x, mid) + check(2 * p + 1, mid + 1, r, mid + 1, y);
 }
+
 void solve(){   
     int n, m;
     cin >> n >> m;

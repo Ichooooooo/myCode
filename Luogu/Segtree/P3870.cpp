@@ -12,14 +12,11 @@ struct SegTree {
     };
 
     int n;
-    // 初始化的时候用来构建最基本的tr
     vector <int> a;
-    // 每一个下标tr 记录 很多个信息
     vector <node> tr;
 
     SegTree (int n) : n (n) {
         a.assign (n + 1, 0);
-        // 初始化 s 和 lz 要看具体的题目
         tr.assign (4 * n + 10, {0, 0, 0, 0});
     }
 
@@ -28,11 +25,9 @@ struct SegTree {
     }
 
     void build (int p, int l, int r) {
-        // 初始化 p 对应的 l 和 r
         tr[p] = {l, r, 0, 0};
 
         if (l == r) {
-            // 按照完全二叉树一样向下递归, 直到到最小单位, 开始向上回溯赋值父节点
             tr[p].s = a[l];
             return;
         }
@@ -41,17 +36,14 @@ struct SegTree {
         build (p << 1, l, mid);
         build (p << 1 | 1, mid + 1, r);
 
-        // 手动求和
         push_up (p);
     }
 
-    // 将标记传到节点
-    void apply (int p, int k) {
-        tr[p].s += (tr[p].r - tr[p].l + 1) * k;
-        tr[p].lz += k;
+    void apply (int p, int t) {
+        tr[p].s = tr[p].r - tr[p].l + 1 - tr[p].s;
+        tr[p].lz ^= t;
     }
 
-    // 将标记传到子树
     void push_down (int p) {
         if (tr[p].lz != 0) {
             apply (p << 1, tr[p].lz);
@@ -61,22 +53,18 @@ struct SegTree {
         }
     }
 
-    // 标记区间
-    void modify (int p, int l, int r, int k) {
-        // 找到l, r的一部分就标记, 然后return
+    void modify (int p, int l, int r, int t) {
         if (l <= tr[p].l && tr[p].r <= r) {
-            apply (p, k);
+            apply (p, t);
             return;
         }
 
-        // 把原来的旧标记传下去
         push_down (p);
-
+    
         int mid = tr[p].l + (tr[p].r - tr[p].l) / 2;
-        if (l <= mid) modify (p << 1, l, r, k);
-        if (mid < r) modify (p << 1 | 1, l, r, k);
+        if (l <= mid) modify (p << 1, l, r, t);
+        if (mid < r) modify (p << 1 | 1, l, r, t);
 
-        // 找到最小标记点标记之后, 更新父节点值
         push_up (p);
     }
 
@@ -85,11 +73,11 @@ struct SegTree {
             return tr[p].s;
         }
 
-        // 依旧更新懒标记
         push_down (p);
-        
+
         int res = 0;
         int mid = tr[p].l + (tr[p].r - tr[p].l) / 2;
+        
         if (l <= mid) res += query (p << 1, l, r);
         if (mid < r) res += query (p << 1 | 1, l, r);
 
@@ -102,24 +90,16 @@ void ovo() {
     cin >> n >> m;
 
     SegTree seg (n);
-    for (int i = 1; i <= n; i ++) {
-        cin >> seg.a[i];
-    }
 
     seg.build (1, 1, n);
     while (m --) {
-        int opt; cin >> opt;
+        int c, a, b;
+        cin >> c >> a >> b;
 
-        if (opt == 1) {
-            int x, y, k;
-            cin >> x >> y >> k;
-
-            seg.modify (1, x, y, k);
+        if (c == 0) {
+            seg.modify (1, a, b, 1);
         } else {
-            int x, y;
-            cin >> x >> y;
-
-            cout << seg.query (1, x, y) << '\n';
+            cout << seg.query (1, a, b) << '\n';
         }
     }
 }
