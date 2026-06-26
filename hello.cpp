@@ -3,6 +3,7 @@
 #define int long long
 using namespace std;
 using arr2 = array <int, 2>;
+using arr3 = array <int, 3>;
 const int mod = 1e9 + 7;
 
 void ovo() {

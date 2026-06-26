@@ -1,10 +1,11 @@
-```cpp
+1. 忘记 return
+2. 忘记build
+3. l 和 tr[p] 大小关系写反
+4. 忘记 push_up 和 push_down
+5. push_down 懒标记忘记清空
+6. 忘记写构造函数
 
-#include <bits/stdc++.h>
-#define int long long
-using namespace std;
-using arr2 = array <int, 2>;
-const int mod = 1e9 + 7;
+```cpp
 
 struct SegTree {
     int n; 
@@ -87,38 +88,3 @@ struct SegTree {
         return res;
     }
 };
-
-void ovo() {
-    int n, m;
-    cin >> n >> m;
-
-    SegTree seg (n);
-    for (int i = 1; i <= n; i ++) {
-        cin >> seg.a[i];
-    }
-
-    seg.build (1, 1, n);
-    while (m --) {
-        int opt; cin >> opt;
-
-        if (opt == 1) {
-            int x, y, k;
-            cin >> x >> y >> k;
-
-            seg.modify (1, x, y, k);
-        } else {
-            int x, y;
-            cin >> x >> y;
-
-            cout << seg.query (1, x, y) << '\n';
-        }
-    }
-}
-
-signed main() {
-    ios::sync_with_stdio(false); cin.tie(0);
-    int _=1;
-    // cin>>_;
-
-    while (_--) ovo();
-}

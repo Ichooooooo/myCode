@@ -1,13 +1,13 @@
-        
+
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
 using arr2 = array <int, 2>;
 const int mod = 1e9 + 7;
 
-// int a[4] = {100, 1000, 10000, 100000};
 void ovo() {
-    cout << (110010012 / 12);
+    int n, k;
+    cin >> n >> k;
 }
 
 signed main() {

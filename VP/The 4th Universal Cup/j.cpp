@@ -116,7 +116,7 @@ void ovo() {
                     l = mid + 1;
                 }
             }
-
+            
             posy[i] = l;
             valy[l] = y;
             cnty[l] = i;
